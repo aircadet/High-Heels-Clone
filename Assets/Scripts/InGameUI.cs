@@ -1,9 +1,12 @@
 ﻿//using ElephantSDK;
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class InGameUI : MonoBehaviour
 {
@@ -18,6 +21,16 @@ public class InGameUI : MonoBehaviour
     public GameObject progressIndicator;
     [HideInInspector] public bool levelFinished;
     [HideInInspector] public bool levelStarted;
+
+    public static InGameUI instance;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -66,6 +79,9 @@ public class InGameUI : MonoBehaviour
         levelStarted = true;
         tutorialPanel.SetActive(false);
         tapToStartPanel.SetActive(false);
+
+        PlayerController.instance.animator.SetTrigger("Walk");
+        PlayerController.instance.playerCanMove = true;
     }
 
     public void ResumeGame()
