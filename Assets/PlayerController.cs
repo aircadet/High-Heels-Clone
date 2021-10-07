@@ -111,19 +111,19 @@ public class PlayerController : MonoBehaviour
       GameObject heel = parent.GetChild(num).gameObject;
       
       heel.SetActive(true);
-      heel.transform.DOScaleY(.9025f, .1f);
+      heel.transform.DOScaleY(.9025f, .25f);
    }
 
    void RaisePlayer()
    {
-      transform.DOMoveY(transform.position.y + 1, .1f);
+      transform.DOMoveY(transform.position.y + 1, .25f);
    }
    
 
    #endregion
 
    #region Heel Releasing
-   public void ReleaseHeel(Vector3 pos)
+   public void ReleaseHeel(float y)
    {
       openTo--;
 
@@ -131,11 +131,15 @@ public class PlayerController : MonoBehaviour
       {
          // GAME OVER
          playerCanMove = false;
+         GetComponent<Rigidbody>().isKinematic = true;
+         transform.DOMoveZ(transform.position.z - 1, .2f);
          animator.SetTrigger("Death");
          StartCoroutine(InGameUI.instance.levelFail());
       }
       else
       {
+         Vector3 pos = transform.position;
+         pos.y = y;
          Instantiate(releasedHeelPrefab, pos, Quaternion.identity);
          GameObject rightHeel = rightHeelHolder.GetChild(openTo).gameObject;
          rightHeel.transform.DOScaleY(0, 0);

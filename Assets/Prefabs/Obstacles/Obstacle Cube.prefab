@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6448891996484210939}
   - component: {fileID: 9123138716731040817}
   - component: {fileID: 585438999555261157}
-  - component: {fileID: 4830493482762824535}
   m_Layer: 0
   m_Name: Obstacle Cube
   m_TagString: Obstacle
@@ -95,17 +94,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999996}
-  m_Center: {x: 0.0000000037252903, y: 0, z: 0}
---- !u!65 &4830493482762824535
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7321474359966713316}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.025, z: 0.01}
   m_Center: {x: 0.0000000037252903, y: 0, z: 0}

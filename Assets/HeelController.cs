@@ -24,7 +24,7 @@ public class HeelController : MonoBehaviour
                     coll.enabled = false;
                 }
             }
-            PlayerController.instance.ReleaseHeel(other.transform.position- Vector3.forward);
+            PlayerController.instance.ReleaseHeel(other.transform.position.y);
         }
     }
 }
