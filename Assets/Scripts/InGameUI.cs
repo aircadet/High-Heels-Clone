@@ -102,7 +102,7 @@ public class InGameUI : MonoBehaviour
         {
             int randomLevel = Random.Range(0,0 );
             SaveLoadManager.setLastPlayedLevel(1);
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
         else
         {
