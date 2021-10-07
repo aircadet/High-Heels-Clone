@@ -98,9 +98,9 @@ public class InGameUI : MonoBehaviour
     public void LoadNextLevel()
     {
         SaveLoadManager.increaseFakeLevel();
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            int randomLevel = Random.Range(2, 4);
+            int randomLevel = Random.Range(0,0 );
             SaveLoadManager.setLastPlayedLevel(1);
             SceneManager.LoadScene(1);
         }

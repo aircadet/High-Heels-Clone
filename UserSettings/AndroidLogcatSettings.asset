@@ -1,13 +1,110 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "fcd75321",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "fcd75321",
+        "name": "com.DefaultCompany.HighHeelsClone",
+        "processId": 11479,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 5171,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 5809,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 6115,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 6416,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 6784,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 6978,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 7294,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 7558,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 7977,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 8176,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 8390,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 9316,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 10805,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 11023,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 11213,
+            "exited": false
+        },
+        {
+            "deviceId": "fcd75321",
+            "name": "com.DefaultCompany.HighHeelsClone",
+            "processId": 11479,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -41,9 +138,20 @@
         ]
     },
     "m_MemoryViewerState": {
-        "MemoryWindowHeight": 0.0,
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "Behavior": 0
     },
